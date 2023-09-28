@@ -30,25 +30,28 @@ This project is a comprehensive full-stack application with a pre-existing front
 * Nodemon
 
 ## Getting Started
-### To run the project locally and start managing speakers, follow these steps:
+### To run the project locally and start the application, follow these steps:
 The .env file has been commited to facilitate.
 
 ### Clone this repository:
 ```
-git clone https://github.com/joaogabriellyra/talker-manager.git
+git clone https://github.com/joaogabriellyra/trybe-futebol-clube.git
 ```
-### Install project dependencies: npm install
+### Install project dependencies:
 ```
-npm install
+npm run install:apps
 ```
-### Run the application:
+### Run the Dockers containers: 
 ```
-npm start
+npm run compose:up
 ```
-### Access the API at:
+![Containers healthy](https://i.ibb.co/jG2FXGz/Captura-de-tela-de-2023-09-28-16-40-00.png)
+
+### Access the application at:
 ```
-http://localhost:3001
+http://localhost:3000
 ```
+![initial-page](https://i.ibb.co/xJnvWZh/Captura-de-tela-de-2023-09-28-18-09-22.png)
 
 ## Routes
 ### Login
